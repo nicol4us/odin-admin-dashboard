@@ -8,3 +8,15 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+
+.header {
+    background-color: #ffffff;
+}
+
+.sidebar {
+    background-color: #1992d4;
+}
+
+.content {
+    background-color: #e2e8f0;
+}
