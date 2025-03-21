@@ -28,14 +28,10 @@ li {
     
 }
 
-.home::before {
-    display: inline-block;
-    content: ' ';
-    background-image: url(icons/home-outline.svg);
-    background-size: 20px 20px;
-    height: 20px;
-    width: 20px;
+path {
+    fill: currentColor;
 }
+
 
 .content {
     background-color: #e2e8f0;
