@@ -25,6 +25,8 @@ li {
     background-color: #1992d4;
     grid-area: sidebar;
     padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     
 }
 
