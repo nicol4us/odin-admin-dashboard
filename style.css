@@ -24,10 +24,16 @@ li {
 .sidebar {
     background-color: #1992d4;
     grid-area: sidebar;
-    padding-left: 20px;
+    padding-left: 20px; 
+    
+}
+
+.sidebar a {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    
+    gap: 15px;
+    align-items: center;
+    text-decoration: none;
 }
 
 path {
