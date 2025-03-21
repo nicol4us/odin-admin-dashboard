@@ -30,10 +30,11 @@ li {
 
 .sidebar a {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 4fr;    
     gap: 15px;
     align-items: center;
     text-decoration: none;
+    color: white;
 }
 
 path {
