@@ -46,11 +46,6 @@ path {
     margin-top: 16px;
     margin-bottom: 32px;
 }
-
-
-
-
-
 .top-sidebar svg {    
     width: 32px;
     height: 32px;
@@ -69,3 +64,17 @@ path {
     grid-area: content;
 }
 
+.header-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header-top svg {
+    width: 20px;
+    height: 20px;
+}
+
+.header-top img {
+    width: 80px;
+    height: 80px;
+}
