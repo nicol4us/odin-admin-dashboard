@@ -117,7 +117,7 @@ path {
 
 .header-bottom-right {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);       
 }
 
 .header-bottom button {
@@ -127,7 +127,15 @@ path {
     border-radius: 12px;
     border-color: #1992d4;
     width: 100px;
-    height: 24px;
-   
+    height: 24px;   
 }
+
+.new-button {
+    justify-self: end;
+}
+
+.upload-button {
+    justify-self: center;
+}
+
 
