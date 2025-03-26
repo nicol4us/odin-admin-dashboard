@@ -143,4 +143,24 @@ path {
     grid-template-columns: 3fr 1fr;
 }
 
+.main-content {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(autofit, minmax(100px, 1fr));     
+    gap: 16px;  
+   
+}
+
+.card {
+    
+    height: 100px;
+    background: #ffffff;
+    padding: 8px;
+}
+
 
