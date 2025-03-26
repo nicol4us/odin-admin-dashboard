@@ -162,6 +162,7 @@ path {
     height: 100px;
     background: #ffffff;
     padding: 8px;
+    border-radius: 8px;
 }
 
 .side-content {
@@ -170,13 +171,22 @@ path {
 }
 
 .information {
+    padding: 8px;
     background: #ffffff;
+    border-radius: 8px;
 }
 
-.account-card {
+.account-container {
+    padding: 8px;
     background: #ffffff;
+    border-radius: 8px;
+
+}
+
+.account-card {    
     display: grid;
     grid-template-columns: 1fr 3fr;
+    
 }
 
 
