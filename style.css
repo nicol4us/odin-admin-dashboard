@@ -169,6 +169,10 @@ path {
     margin-right: 32px;
 }
 
+.information {
+    background: #ffffff;
+}
+
 .account-card {
     background: #ffffff;
     display: grid;
