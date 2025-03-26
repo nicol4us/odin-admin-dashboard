@@ -146,6 +146,7 @@ path {
 .main-content {
     display: grid;
     grid-template-rows: 50px 1fr;
+    margin-left: 16px;
 }
 
 .card-container {
@@ -161,6 +162,11 @@ path {
     height: 100px;
     background: #ffffff;
     padding: 8px;
+}
+
+.side-content {
+    margin-left: 16px;
+    margin-right: 32px;
 }
 
 .account-card {
