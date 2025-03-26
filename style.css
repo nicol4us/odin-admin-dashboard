@@ -91,8 +91,8 @@ path {
 }
 
 .user-image {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .header-bottom {
@@ -109,8 +109,8 @@ path {
 }
 
 .header-bottom-left > img {    
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     justify-self: end;
     
 }
@@ -161,6 +161,12 @@ path {
     height: 100px;
     background: #ffffff;
     padding: 8px;
+}
+
+.account-card {
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 
