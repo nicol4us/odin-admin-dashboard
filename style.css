@@ -162,6 +162,13 @@ path {
     background: #ffffff;
     padding: 8px;
     border-radius: 8px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+
+}
+
+.card-content {
+    margin: 8px;
 }
 
 .side-content {
@@ -205,9 +212,6 @@ path {
    align-self: self-end;
 }
 
-.icons-card {
-    justify-self: end;
-    align-self: center;
-}
+
 
 
