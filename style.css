@@ -204,6 +204,8 @@ path {
     padding: 8px;
     background: #ffffff;
     border-radius: 8px;
+    display: grid;
+    align-items: center;    
 
 }
 
