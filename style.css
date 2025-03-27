@@ -173,6 +173,7 @@ path {
     padding: 8px;
     background: #ffffff;
     border-radius: 8px;
+    font-size: small;
 }
 
 .account-container {
