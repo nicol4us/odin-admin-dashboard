@@ -215,6 +215,10 @@ path {
     
 }
 
+.account-card > img {
+    justify-self: center;
+}
+
 .icons-card svg {
     width: 20px;
     height: 20px;
