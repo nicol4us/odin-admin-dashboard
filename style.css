@@ -189,4 +189,9 @@ path {
     
 }
 
+.icons-card svg {
+    width: 20px;
+    height: 20px;
+}
+
 
