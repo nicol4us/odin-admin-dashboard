@@ -192,10 +192,12 @@ path {
 }
 
 .information {
-    padding: 16px;
+    padding: 32px;
     background: #ffffff;
     border-radius: 8px;
-    font-size: small;
+    font-size: small;   
+    display: grid; 
+    align-items: center;
 }
 
 .account-container {
@@ -218,6 +220,11 @@ path {
 }
 .title-section {
    align-self: self-end;
+}
+
+hr {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 
