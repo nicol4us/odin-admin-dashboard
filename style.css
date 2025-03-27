@@ -152,23 +152,30 @@ path {
 .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(autofit, minmax(40px, 1fr));     
-    gap: 16px;  
+    grid-template-rows: repeat(3, 1fr);     
+    gap: 16px; 
+    
    
 }
 
-.card {    
-    height: 130px;
+.card { 
+    width: 400px;     
+    height: 200px;
     background: #ffffff;
     padding: 8px;
     border-radius: 8px;
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
 
 }
 
 .card-content {
-    margin: 8px;
+    margin: 16px;
+}
+
+.icons-card {
+    justify-self: end;
+    
 }
 
 .side-content {
