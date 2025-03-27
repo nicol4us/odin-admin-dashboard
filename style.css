@@ -141,26 +141,27 @@ path {
 .content {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding-bottom: 32px;
 }
 
 .main-content {
     display: grid;
     grid-template-rows: 40px 1fr;
     margin-left: 16px;
+    
 }
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(3, 1fr);     
+    grid-template-columns: repeat(2, 1fr);          
     gap: 16px; 
     
    
 }
 
 .card { 
-    width: 400px;     
-    height: 200px;
+    width: 500px;     
+    height: 150px;
     background: #ffffff;
     padding: 8px;
     border-radius: 8px;
