@@ -171,6 +171,11 @@ path {
     grid-template-rows: repeat(2, 1fr);
 }
 
+.sub-side-content {
+    display: grid;
+    grid-template-rows: 40px 1fr;
+}
+
 .information {
     padding: 8px;
     background: #ffffff;
