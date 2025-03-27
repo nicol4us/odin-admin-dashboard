@@ -199,9 +199,15 @@ path {
 .icons-card svg {
     width: 20px;
     height: 20px;
+    margin: 8px;
 }
 .title-section {
    align-self: self-end;
+}
+
+.icons-card {
+    justify-self: end;
+    align-self: center;
 }
 
 
