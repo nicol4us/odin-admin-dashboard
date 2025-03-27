@@ -91,8 +91,8 @@ path {
 }
 
 .user-image {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .header-bottom {
@@ -109,8 +109,8 @@ path {
 }
 
 .header-bottom-left > img {    
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     justify-self: end;
     
 }
@@ -152,14 +152,13 @@ path {
 .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(autofit, minmax(100px, 1fr));     
+    grid-template-rows: repeat(autofit, minmax(40px, 1fr));     
     gap: 16px;  
    
 }
 
-.card {
-    
-    height: 100px;
+.card {    
+    height: 130px;
     background: #ffffff;
     padding: 8px;
     border-radius: 8px;
