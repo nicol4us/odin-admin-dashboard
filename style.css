@@ -159,14 +159,14 @@ path {
    
 }
 
-.card { 
-        
+.card {         
     height: 180px;
     background: #ffffff;
     padding: 8px;
     border-radius: 8px;
     display: grid;
     grid-template-rows: 3fr 1fr;
+    border-left: 8px solid goldenrod;
 
 }
 
