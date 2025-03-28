@@ -154,6 +154,7 @@ path {
     display: grid;
     grid-template-rows: 40px 1fr;
     margin-left: 32px;
+    gap: 8px;
     
 }
 
@@ -195,6 +196,7 @@ path {
 .sub-side-content {
     display: grid;
     grid-template-rows: 40px 1fr;
+    gap: 8px;
 }
 
 .information {
